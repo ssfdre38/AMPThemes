@@ -387,3 +387,7 @@ input[type=submit].slideIcon,
   display: flex;
   flex-direction: column;
 }
+
+.iconButton.toggled {
+  background-color: rgb(100, 0, 100) !important;
+}
