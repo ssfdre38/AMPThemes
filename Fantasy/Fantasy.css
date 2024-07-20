@@ -367,14 +367,14 @@ input[type=submit].slideIcon,
 .InstanceList {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 12px !important;
+  grid-gap: 0px !important;
   padding: 8px;
   border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .InstanceList .ServerEntry {
-  height: 210px;
+  block-size: 210px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   cursor: pointer;
   position: relative;
@@ -388,6 +388,14 @@ input[type=submit].slideIcon,
   flex-direction: column;
 }
 
+.InstanceList .ServerEntry .ServerEntryInfo {
+  padding: 0px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  block-size: 100%;
+}
+
 .iconButton.toggled {
-  background-color: rgb(100, 0, 100) !important;
+  background-color: rgb(120, 0, 120) !important;
 }
