@@ -403,7 +403,7 @@ input[type=submit].slideIcon,
 /*Community Pages*/
 
 #AMPLogo{
-  inlnie-size: 128px !important;
+  width: 128px !important;
 }
 
 .ServerInfo{
@@ -441,4 +441,10 @@ input[type=submit].slideIcon,
   align-items: center;
   flex-grow: 1;
   justify-content: space-evenly;
+}
+
+.ServerInfo .BannerImage{
+  width: 460px;
+  height: 215px;
+  width: 100%;
 }
