@@ -1,0 +1,189 @@
+﻿@font-face {
+  font-family: 'antonio-variablefont_wght';
+  src: url('../Fonts/antonio-variablefont_wght.ttf') format('truetype');
+}
+body,
+html,
+.modalPanel,
+#mainBody,
+.bodyTab {
+  font-family: 'antonio-variablefont_wght', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #000;
+}
+#mainBody {
+  left: 16px;
+}
+#loginContainer {
+  background-color: #000;
+}
+.ServerEntry.ServerEntry,
+.datastoreItem {
+  background-image: none;
+}
+.settingsGroup .groupBody .settingContainer {
+  box-shadow: none;
+  background-color: #c8f;
+  color: black;
+  border-radius: 32px;
+}
+.settingsGroup .groupBody .settingContainer .settingDescription,
+.settingsGroup .groupBody .settingContainer .settingInfo {
+  color: black;
+}
+input[type=text],
+input[type=password],
+input[type=url],
+input[type=number],
+input[type=email],
+input[type=search],
+select,
+textarea,
+.popupTrigger {
+  background-color: #000;
+  border-radius: 32px;
+  padding: 8px 16px;
+  color: white;
+  box-shadow: none;
+}
+#barTop #topSearchBox {
+  background-color: transparent;
+}
+#sideMenuContainer,
+#barTop,
+#userInfo {
+  left: 16px;
+  background-color: #d44;
+  border-radius: 32px 0 0;
+}
+#sideMenuContainer #topSearchBox,
+#barTop #topSearchBox,
+#userInfo #topSearchBox {
+  margin-right: 32px;
+}
+#sideMenuContainer#sideMenuContainer,
+#barTop#sideMenuContainer,
+#userInfo#sideMenuContainer {
+  background-color: #000;
+}
+#sideMenuContainer .menuTitle,
+#barTop .menuTitle,
+#userInfo .menuTitle,
+#sideMenuContainer #bgtext,
+#barTop #bgtext,
+#userInfo #bgtext {
+  color: white;
+  background-color: #c8f;
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+}
+#sideMenuContainer #bgtext,
+#barTop #bgtext,
+#userInfo #bgtext {
+  border-radius: 0 0 32px 32px;
+  box-sizing: border-box;
+  background-color: #f70;
+}
+#sideMenuContainer #sideMenu a,
+#barTop #sideMenu a,
+#userInfo #sideMenu a {
+  background-color: #d44;
+  border-bottom: 4px solid black;
+  border-radius: 0;
+  padding-top: 16px;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+}
+#sideMenuContainer #sideMenu a img,
+#barTop #sideMenu a img,
+#userInfo #sideMenu a img {
+  display: none;
+}
+#sideMenuContainer #sideMenu a.selected,
+#barTop #sideMenu a.selected,
+#userInfo #sideMenu a.selected {
+  box-shadow: none;
+  background-color: black;
+  color: white;
+}
+.modalpanel,
+.wizardTab,
+.wizardTab .wizardContents {
+  border-radius: 32px;
+  background-color: #000;
+  box-shadow: none;
+  border: 2px solid #f70;
+  overflow: hidden;
+}
+.modalpanel #modaltitle,
+.wizardTab #modaltitle,
+.wizardTab .wizardContents #modaltitle,
+.modalpanel h2,
+.wizardTab h2,
+.wizardTab .wizardContents h2 {
+  background-color: #f70;
+  color: white;
+  text-align: right;
+  border-radius: 0;
+}
+#sideMenu a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+.lf,
+#bgtext,
+input,
+.menuTitle,
+.ServerGroup .ServerGroupHeader .SystemInfo {
+  font-family: 'antonio-variablefont_wght', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+label.radioButtons input[type=radio] ~ span {
+  background-color: #78f;
+  border-radius: 32px;
+}
+button,
+input[class=button],
+input[class=submit] {
+  font-family: 'antonio-variablefont_wght', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #f70;
+  border: none;
+  border-radius: 32px;
+  padding: 8px 16px 8px 16px;
+  box-shadow: none;
+  text-transform: uppercase;
+  color: white;
+}
+.bgRed.bgRed {
+  background-color: #d44;
+  border: none;
+}
+.bgRed.bgRed:hover {
+  background-color: #d44 15%;
+}
+.bgRed.bgRed:active {
+  background-color: #d44 -15%;
+}
+.bgOrange.bgOrange {
+  background-color: #f70;
+  border: none;
+}
+.bgOrange.bgOrange:hover {
+  background-color: #f70 15%;
+}
+.bgOrange.bgOrange:active {
+  background-color: #f70 -15%;
+}
+.bgGreen.bgGreen {
+  background-color: #78f;
+  border: none;
+}
+.bgGreen.bgGreen:hover {
+  background-color: #78f 15%;
+}
+.bgGreen.bgGreen:active {
+  background-color: #78f -15%;
+}

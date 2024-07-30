@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'antonio-variablefont_wght';
+    src: url('../Fonts/antonio-variablefont_wght.ttf') format('truetype');
+}
+
+
+@mainFont: 'antonio-variablefont_wght', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+@colorRed: #d44;
+@colorOrange: #f70;
+@colorTan: #ffaa90;
+@colorPurple: #c8f;
+@colorMauve: #78f;
+@colorYellow: #fa0;
+@bigRound: 32px;
+
+body, html, .modalPanel, #mainBody, .bodyTab {
+    font-family: @mainFont;
+    background-color: #000;
+}
+
+#mainBody {
+    left: 16px;
+}
+
+#loginContainer {
+    background-color: #000;
+}
+
+.ServerEntry.ServerEntry, .datastoreItem {
+    background-image: none;
+}
+
+.settingsGroup .groupBody .settingContainer {
+    box-shadow: none;
+    background-color: @colorPurple;
+    color: black;
+    border-radius: @bigRound;
+    
+    .settingDescription, .settingInfo {
+        color: black;
+    }
+}
+
+input[type=text], input[type=password], input[type=url], input[type=number], input[type=email], input[type=search], select, textarea, .popupTrigger {
+    background-color: #000;
+    border-radius: @bigRound;
+    padding: 8px 16px;
+    color: white;
+    box-shadow: none;
+}
+
+#barTop #topSearchBox {
+    background-color: transparent;
+}
+
+#sideMenuContainer, #barTop, #userInfo {
+    left: 16px;
+    background-color: @colorRed;
+    border-radius: @bigRound 0 0;
+
+    #topSearchBox {
+        margin-right: 32px;
+    }
+
+    &#sideMenuContainer {
+        background-color: #000;
+    }
+
+    .menuTitle, #bgtext {
+        color: white;
+        background-color: @colorPurple;
+        border-top: 8px solid black;
+        border-bottom: 8px solid black;
+    }
+
+    #bgtext {
+        border-radius: 0 0 @bigRound @bigRound;
+        box-sizing: border-box;
+        background-color: @colorOrange;
+    }
+
+    #sideMenu {
+        a {
+            background-color: @colorRed;
+            border-bottom: 4px solid black;
+            border-radius: 0;
+            padding-top: 16px;
+            color: #000;
+            margin: 0;
+            text-transform: uppercase;
+
+            img {
+                display: none;
+            }
+
+            &.selected {
+                box-shadow: none;
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
+
+.modalpanel, .wizardTab, .wizardTab .wizardContents {
+    border-radius: @bigRound;
+    background-color: #000;
+    box-shadow: none;
+    border: 2px solid @colorOrange;
+    overflow: hidden;
+    
+    #modaltitle, h2 {
+        background-color: @colorOrange;
+        color: white;
+        text-align: right;
+        border-radius: 0;
+    }
+}
+
+#sideMenu a, h1, h2, h3, h4, h5, h6, th, .lf, #bgtext, input, .menuTitle, .ServerGroup .ServerGroupHeader .SystemInfo {
+    font-family: @mainFont;
+}
+
+label.radioButtons input[type=radio] ~ span
+{
+    background-color: @colorMauve;
+    border-radius: @bigRound;
+}
+
+button, input[class=button], input[class=submit] {
+    font-family: @mainFont;
+    background-color: @colorOrange;
+    border: none;
+    border-radius: @bigRound;
+    padding: 8px 16px 8px 16px;
+    box-shadow: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bgRed.bgRed {
+    background-color: @colorRed;
+    border: none;
+
+    &:hover {
+        background-color: @colorRed +15%;
+    }
+
+    &:active {
+        background-color: @colorRed -15%;
+    }
+}
+
+.bgOrange.bgOrange {
+    background-color: @colorOrange;
+    border: none;
+
+    &:hover {
+        background-color: @colorOrange +15%;
+    }
+
+    &:active {
+        background-color: @colorOrange -15%;
+    }
+}
+
+.bgGreen.bgGreen {
+    background-color: @colorMauve;
+    border: none;
+
+    &:hover {
+        background-color: @colorMauve +15%;
+    }
+
+    &:active {
+        background-color: @colorMauve -15%;
+    }
+}

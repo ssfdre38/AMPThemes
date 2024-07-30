@@ -1,0 +1,59 @@
+﻿@colorPrimary : #111;
+@colorSecondary: #333;
+@colorAccent: #444;
+
+body, .bodyTab, .tabHeaderContainer {
+    //background-image: url(../Images/HeroBlack_Blur.webp);
+    background-color: #222;
+}
+
+#loginContainer, .sideItemList, #sideMenuContainer, .subMenuWell {
+    background-color: @colorSecondary;
+}
+
+#mainBody {
+    background: #222;
+}
+
+#sideMenu a {
+    font-size: 100%;
+
+    &:active {
+        background-color: @colorPrimary;
+    }
+
+    &.selected {
+        color: #5EA8DE;
+    }
+}
+
+input[type=text], input[type=password], input[type=url], input[type=number], input[type=email], input[type=search], select, textarea, .popupTrigger {
+    background-color: #474747;
+}
+
+input.searchBox {
+    background-color:transparent;
+}
+
+.settingsGroup .groupBody .settingContainer {
+    background-color: @colorSecondary;
+    border-color: @colorAccent;
+}
+
+.wizardTab .wizardContents {
+    background-color: #222;
+    border-bottom: 8px solid @colorAccent;
+
+    h2 {
+        background-color: @colorAccent;
+    }
+}
+
+.scheduleTriggerInfo {
+    border: 1px solid @colorAccent;
+    background-color: @colorSecondary;
+}
+
+.splitViewInfo.splitViewInfo { 
+    background-color: #222;
+}

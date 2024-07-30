@@ -1,0 +1,65 @@
+﻿body {
+  background-image: url(../Images/AuraBlur.webp);
+  background-size: auto;
+  background-position: bottom center;
+  backdrop-filter: brightness(0.5) saturate(1.5);
+}
+#barTop {
+  background-color: transparent;
+}
+#loginContainer,
+#sideMenuContainer {
+  background-color: transparent;
+  background-image: url(../Images/DarkSemiNoise.webp);
+  background-repeat: repeat;
+}
+.bodyTab,
+.sideItemList {
+  border-radius: 0;
+}
+#userInfo,
+#mainBody {
+  background-color: transparent;
+}
+.settingsGroup .groupBody .settingContainer,
+#diagTable,
+#currentSessionsTable,
+#auditLogTable {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: none;
+  border: none;
+}
+#sideMenu {
+  top: 0;
+}
+#sideMenu a {
+  font-size: 100%;
+}
+#sideMenu a:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.subMenuWell {
+  background-color: #222;
+}
+.sideItemData > p,
+.sideItemData .description,
+.permNodeDescription {
+  color: rgba(255, 255, 255, 0.6);
+}
+.ServerEntry.ServerEntry {
+  border: none;
+}
+.ServerEntry.ServerEntry:hover {
+  border: none;
+  filter: brightness(1.35);
+}
+.ServerEntry.ServerEntry:active {
+  border: none;
+  filter: brightness(1.1);
+}
+@media screen and (max-width: 660px) {
+  #sideMenuContainer,
+  #sideMenu {
+    background-color: #333;
+  }
+}

@@ -1,0 +1,80 @@
+﻿body,
+.bodyTab {
+  background-color: #120c32;
+}
+#loginContainer,
+.sideItemList {
+  background: linear-gradient(#5D1FAE, #35017A);
+}
+#barTop,
+#userInfo {
+  background-color: #5D1FAE;
+}
+#sideMenuContainer,
+.subMenuWell,
+#mainBody {
+  background: linear-gradient(#5D1FAE, #5D1FAE, #35017A);
+}
+#sideMenu a {
+  font-size: 100%;
+  font-family: unset;
+  line-height: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#sideMenu a img {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+#sideMenu a:active {
+  background-color: #35017A;
+}
+#sideMenu a.selected {
+  background: linear-gradient(90deg, #947D47, #B59C5F, #947D47);
+  /*        text-shadow: 2px 2px 4px @darkSemiBlack;
+
+        img {
+            filter: drop-shadow(2px 2px 4px @darkSemiBlack)
+        }*/
+}
+input[type=text],
+input[type=password],
+input[type=url],
+input[type=number],
+input[type=email],
+input[type=search],
+select,
+textarea,
+.popupTrigger {
+  background-color: #947D47;
+}
+input.searchBox {
+  background-color: transparent;
+}
+.wizardTab .wizardContents,
+.modalpanel {
+  background: linear-gradient(#5D1FAE, #35017A);
+  border-bottom: 8px solid #B59C5F;
+}
+.wizardTab .wizardContents h2,
+.modalpanel h2,
+.wizardTab .wizardContents #modaltitle,
+.modalpanel #modaltitle {
+  background: linear-gradient(90deg, #947D47, #B59C5F, #947D47);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.scheduleTriggerInfo {
+  border: 1px solid #B59C5F;
+  background: linear-gradient(#5D1FAE, #35017A);
+}
+.scheduleTriggerInfo .scheduleTriggerTaskDropper {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+.scheduleTriggerInfo .scheduleTriggerTask {
+  border-bottom-color: #B59C5F;
+}
+.scheduleTriggerInfo .scheduleTriggerDescription {
+  background: linear-gradient(90deg, #947D47, #B59C5F, #947D47);
+}
+.settingsGroup .groupBody .settingContainer {
+  background-color: #5D1FAE;
+}

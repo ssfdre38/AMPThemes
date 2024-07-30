@@ -1,0 +1,87 @@
+﻿@import "../CSS/Colors.less";
+
+@colorPrimary: #35017A;
+@colorSecondary: #5D1FAE;
+@colorAccent: #B59C5F;
+@colorAccentAlt: #947D47;
+
+body, .bodyTab {
+    //background-image: url(../Images/HeroBlack_Blur.webp);
+    background-color: #120c32;
+}
+
+#loginContainer, .sideItemList {
+    background: linear-gradient(@colorSecondary, @colorPrimary);
+}
+
+#barTop, #userInfo {
+    background-color: @colorSecondary;
+}
+
+#sideMenuContainer, .subMenuWell, #mainBody {
+    background: linear-gradient(@colorSecondary, @colorSecondary, @colorPrimary);
+}
+
+#sideMenu a {
+    font-size: 100%;
+    font-family: unset;
+    line-height: 50px;
+    text-shadow: 2px 2px 4px @darkSemiBlack;
+
+    img {
+        filter: drop-shadow(2px 2px 4px @darkSemiBlack)
+    }
+
+    &:active {
+        background-color: @colorPrimary;
+    }
+
+    &.selected {
+        background: linear-gradient(90deg, @colorAccentAlt, @colorAccent, @colorAccentAlt);
+/*        text-shadow: 2px 2px 4px @darkSemiBlack;
+
+        img {
+            filter: drop-shadow(2px 2px 4px @darkSemiBlack)
+        }*/
+    }
+}
+
+input[type=text], input[type=password], input[type=url], input[type=number], input[type=email], input[type=search], select, textarea, .popupTrigger {
+    background-color: @colorAccentAlt;
+}
+
+input.searchBox {
+    background-color: transparent;
+}
+
+.wizardTab .wizardContents, .modalpanel {
+    background: linear-gradient(@colorSecondary, @colorPrimary);
+    border-bottom: 8px solid @colorAccent;
+
+    h2, #modaltitle {
+        background: linear-gradient(90deg, @colorAccentAlt, @colorAccent, @colorAccentAlt);
+        text-shadow: 2px 2px 4px @darkSemiBlack;
+    }
+}
+
+.scheduleTriggerInfo {
+    border: 1px solid @colorAccent;
+    background: linear-gradient(@colorSecondary, @colorPrimary);
+
+    .scheduleTriggerTaskDropper {
+        background-color: @darkSemiBlack;
+        border: none;
+    }
+
+    .scheduleTriggerTask {
+        border-bottom-color: @colorAccent;
+    }
+    
+    .scheduleTriggerDescription {
+        background: linear-gradient(90deg, @colorAccentAlt, @colorAccent, @colorAccentAlt);
+    }
+}
+
+.settingsGroup .groupBody .settingContainer {
+    background-color: @colorSecondary;
+}
