@@ -8,7 +8,7 @@
  * Image Copyright: Background by Yuki https://github.com/IceOfWraith/Yuki No copyright.
  **/
 
-@keyframes slidein {
+ @keyframes slidein {
   0% { inset-block-start: -100%; padding-block-start:60px; }
   100% { padding-block-start:32px; }
 }
@@ -367,7 +367,7 @@ input[type=submit].slideIcon,
 .InstanceList {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 16px !important;
+  grid-gap: 0px !important;
   padding: 8px;
   border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -447,4 +447,10 @@ input[type=submit].slideIcon,
   width: 460px;
   height: 215px;
   width: 100%;
+}
+
+.background-image {
+  width: 0%;
+  height: 0%;
+  float: none;
 }
