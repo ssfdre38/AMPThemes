@@ -1,0 +1,31 @@
+/**
+ * @file
+ * Title: Simple By Design
+ * Description: A Simple and Clean Theme for AMP
+ * Author: Daniel Elliott (ssfdre38)
+ * Platform: For AMP (Application Management Panel) By Cubecoders Limited
+ * Version: 1.0.0 For AMP 2.5.1.4
+ **/
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.yourElement {
+    animation: fadeIn 2s;
+}
+
+/*Background Image*/
+body {
+    background: linear-gradient(to bottom, white, green);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/*Login Screen*/
+#loginContainer {
+    background: rgba(0,0,0,0.8) !important;
+    animation: fadeIn 2s;
+}
