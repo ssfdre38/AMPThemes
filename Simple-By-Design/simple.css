@@ -7,7 +7,7 @@
  * Version: 1.0.0 For AMP 2.5.1.4
  **/
 
- @keyframes fadeIn {
+@keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
@@ -43,6 +43,24 @@ body {
 
 #loginLogo img {
     animation: fadeIn 2s;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h4 {
+    color: white;
+    font-size: 1em;
+    margin: 0;
+}
+
+h6 {
+    color: white;
+    font-size: 0.8em;
+    margin: 0;
 }
 
 #loginForm {
