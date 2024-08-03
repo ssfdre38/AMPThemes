@@ -67,4 +67,12 @@ h6 {
     border-radius: 6px !important;
     margin-top: auto; /* Push it to the bottom */
     width: 450px; /* Adjust width as needed */
+    align-items: center !important;
+}
+
+/* Login Loader*/
+.loader,
+#loginSpinner {
+    margin-left: auto;
+    margin-right: auto;
 }
