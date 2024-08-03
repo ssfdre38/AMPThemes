@@ -98,7 +98,7 @@ height: 10em;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 12px;
     padding: 8px;
-    border-radius: 16px;
+    border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -117,3 +117,19 @@ height: 10em;
     display: flex;
     flex-direction: column;
 }
+
+/*Instance Guide Box*/
+.InstanceList .ServerEntry.GuidePrompt {
+    background-color: transparent;
+    pointer-events: none;
+    text-align: left;
+    padding-left: 8px;
+}
+
+/*Instance Creation*/
+.InstanceList .ServerEntry.NewServerEntry {
+    background-color: steelblue;
+    text-align: center;
+    border-radius: 8px;
+}
+
