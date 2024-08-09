@@ -71,10 +71,11 @@ h6 {
     align-items: center !important;
 }
 
-/* Login Loader*/
+/* Login Loader */
 .loader,
 #loginSpinner {
     margin: 0 auto; /* Center horizontally */
+    display: none; /* Hide initially */
 }
 
 .loader2 {
@@ -88,9 +89,9 @@ h6 {
 .loader2,
 .loader:after,
 .loader2:after {
-border-radius: 50%;
-width: 10em;
-height: 10em;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
 }
 
 /*Instances Box*/
@@ -132,18 +133,4 @@ height: 10em;
     background-color: steelblue;
     text-align: center;
     border-radius: 8px;
-}
-
-/*Menu Well*/
-#sideMenuContainer, .subMenuWell {
-    background: #25597E;
-    position: fixed;
-    left: 0;
-    height: 100%;
-    width: 250px;
-    overflow-y: auto;
-    overflow-x: clip;
-    box-sizing: border-box;
-    transition: left 0.5s, background 0.5s;
-    z-index: 20;
 }
