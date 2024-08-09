@@ -74,8 +74,13 @@ h6 {
 /* Login Loader */
 .loader,
 #loginSpinner {
-    margin: 0 auto; /* Center horizontally */
+    background-color: rgba(0, 0, 0, 0.5) !important;
     display: none; /* Hide initially */
+    position: absolute; /* Position absolutely within the parent */
+    margin-top: auto !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the loader */
 }
 
 .loader2 {
