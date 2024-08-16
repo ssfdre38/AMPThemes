@@ -40,7 +40,7 @@ body {
 .bgGreen,
 button {
   background-color: rgba(0,0,0,0.5);
-  border: 1px solid black;
+  border: none;
 }
 
 /*Active Button*/
