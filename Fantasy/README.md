@@ -7,3 +7,5 @@ To have this theme be used fully, you will need to add both the Fantasy.css and 
 You will need to do a hard refresh for the theme to take affect on your AMP on your current browser.
 
 For Community Pages to match up with your Panel, The theme will take over the default css for Community Pages. It's a cut down version of the theme with a hard set instance preview image.
+
+There are 2 Fantasy CSS Files. `Fantasy-sa.css` Is for Standalone Setups and `Fantasy.css` is for Controller/Target Setups.
