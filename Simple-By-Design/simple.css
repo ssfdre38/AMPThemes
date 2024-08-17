@@ -18,7 +18,7 @@
 
 /*Background Image*/
 body {
-    background: white;
+    background-image: url(../Themes/fantasy.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -26,7 +26,7 @@ body {
 
 /*Login Screen*/
 #loginContainer {
-    background: rgba(0, 0, 0, 0.25) !important;
+    background: rgba(0, 0, 0, 0.35) !important;
     animation: fadeIn 2s;
     border-radius: 6px !important;
     display: flex;
