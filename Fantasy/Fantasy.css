@@ -434,6 +434,11 @@ input[type=submit].slideIcon,
   width: 100%;
 }
 
+/*Community Pages Text*/
+.ServerInfoLines .Line {
+  color: white;
+}
+
 /*Background Image*/
 body {
   background-size: 100% 100%;
