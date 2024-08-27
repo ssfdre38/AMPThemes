@@ -16,14 +16,6 @@
     animation: fadeIn 2s;
 }
 
-/*Background Image*/
-body {
-    background-image: url(../Themes/fantasy.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-}
-
 /*Login Screen*/
 #loginContainer {
     background: rgba(0, 0, 0, 0.345) !important;
