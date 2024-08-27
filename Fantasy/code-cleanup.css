@@ -91,14 +91,12 @@ h6 {
     transition: background-color 0.3s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
-    line-height: 0px !important;
 }
 
 /*Hover Button*/
 button:hover {
     background-color: rgba(0,0,0,0.5);
     background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
-    line-height: 0px !important;
 }
 
 /*Disabled Button*/
@@ -139,10 +137,6 @@ button {
     background: rgb(2,0,36) !important;
     background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
     border-block-end: none;
-}
-
-.bgGreen:active {
-    line-height: 0px !important;
 }
 
 .settingsGroup .groupBody .settingLabel .settingDescription,
