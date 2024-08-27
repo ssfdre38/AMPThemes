@@ -73,8 +73,6 @@ h6 {
 
 /*Login Loader*/
 .loginBusy {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    border-radius: 6px !important;
     position: fixed;
     bottom: 0;
     transform: translateX(-50%);
