@@ -370,15 +370,6 @@ input[type=submit].slideIcon,
   border-radius: 16px !important;
 }
 
-/*Loading Flash*/
-.easeLoad{
-  transition: opacity 2s ease;
-    transition-property: opacity;
-    transition-duration: 2s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-}
-
 /* New Server Group*/
 .ServerGroup.Online
 {
