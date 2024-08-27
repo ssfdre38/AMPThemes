@@ -4,7 +4,7 @@
  * Description: A Pink Fantasy theme.
  * Author: James Manker (Iceofwraith) Edited By Daniel Elliott (ssfdre38)
  * Platform: For AMP (Application Management Panel) By Cubecoders Limited
- * Version: 1.6.2 For AMP 2.5.1.6
+ * Version: 1.7.0 For AMP 2.5.1.6
  * Image Copyright: Background by Yuki https://github.com/IceOfWraith/Yuki No copyright.
  **/
 
@@ -415,6 +415,26 @@ input[type=submit].slideIcon,
 .iconButton.toggled {
   background-color: rgb(120, 0, 120) !important;
 }
+/*
+File Manager (working on right now)
+.fmPathSegment {
+  background-color: rgb(100, 0, 100) !important;
+}
+
+.fmPathSegment::after{
+  background-color: rgb(100, 0, 100) !important;
+}
+
+.fmPathSegment:nth-child(2n)
+{
+  background-color: rgb(180, 0, 180) !important;
+}
+
+.fmPathSegment:nth-child(2n)::after
+{
+  background-color: rgb(180, 0, 180) !important;
+}
+*/
 
 /*Community Pages*/
 
