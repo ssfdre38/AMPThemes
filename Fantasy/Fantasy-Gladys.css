@@ -320,8 +320,8 @@ input[type=submit].slideIcon,
 
 /*Pop-up Infomation Panel*/
 .modalpanel {
-  background-color: #222;
-  border-block-end: 0px solid #444;
+  background-color: rgba(135,21,119,1);
+  border-block-end: 0px solid rgba(101,21,71,1) ;
   animation: fadeIn 1s !important;
   inline-size: 750px;
   transform: translateY(-100%);
@@ -334,6 +334,9 @@ input[type=submit].slideIcon,
   transition: none;
 }
 
+.modalpanel #modaltitle {
+  background-color: rgba(101,21,71,1) !important;
+}
 /*Settings Tab*/
 .tabHeaderContainer
 {
