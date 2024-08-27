@@ -1,0 +1,5 @@
+1.7.0 Change Logs
+
+New Login Container Setup.
+Changes to the Pop-up box.
+Removal of old, not used code.
