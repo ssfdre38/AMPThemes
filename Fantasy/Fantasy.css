@@ -8,11 +8,6 @@
  * Image Copyright: Background by Yuki https://github.com/IceOfWraith/Yuki No copyright.
  **/
 
- @keyframes slidein {
-  0% { inset-block-start: -100%; padding-block-start:60px; }
-  100% { padding-block-start:32px; }
-}
-
 @keyframes fadeIn {
   0% {opacity: 0;}
   100% {opacity: 1;}
@@ -320,8 +315,8 @@ input[type=submit].slideIcon,
 
 /*Pop-up Infomation Panel*/
 .modalpanel {
-  background-color: #222;
-  border-block-end: 0px solid #444;
+  background-color: rgba(135,21,119,1);
+  border-block-end: 0px solid rgba(101,21,71,1) ;
   animation: fadeIn 1s !important;
   inline-size: 750px;
   transform: translateY(-100%);
@@ -332,6 +327,10 @@ input[type=submit].slideIcon,
   border-radius: 16px;
   overflow: hidden;
   transition: none;
+}
+
+.modalpanel #modaltitle {
+  background-color: rgba(101,21,71,1) !important;
 }
 
 /*Settings Tab*/
@@ -358,14 +357,6 @@ input[type=submit].slideIcon,
   border-radius: 16px !important;
 }
 
-/*Loading Flash*/
-.easeLoad{
-  transition: opacity 2s ease;
-    transition-property: opacity;
-    transition-duration: 2s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-}
 
 /* New Server Group*/
 .ServerGroup.Online
