@@ -194,7 +194,7 @@ h6 {
 
 #sideMenu a.selected {
   background-color: #222;
-  color: #5EA8DE;
+  color: darkmagenta ;
 }
 
 /*Left Side Menu*/
@@ -499,6 +499,18 @@ File Manager (working on right now)
 /*Community Pages Text*/
 .ServerInfoLines .Line {
   color: white;
+}
+
+.well.info{
+  border:1px solid darkmagenta;
+}
+
+#sideMenu a.info .warn, #sideMenu a.info .subtitle{
+  color: darkmagenta;
+}
+
+#sideMenu a.hasNotice{
+  background-color: rgb(101,21,71, 0.2)
 }
 
 /*Background Image*/
