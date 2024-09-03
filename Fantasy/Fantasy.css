@@ -237,6 +237,10 @@ input[type="checkbox"]:checked + span::after {
   background: rgb(200,16,299);
 }
 
+#sideMenu a.selected{
+  color:rgb(160, 0, 160);
+}
+
 /*New status bar in the instance view*/
 .ServerEntryStatus {
   background-color: darkmagenta !important;
@@ -310,7 +314,7 @@ input[type=submit].slideIcon,
 /*Pop-up Infomation Panel*/
 .modalpanel {
   background-color: rgba(135,21,119,1);
-  border-block-end: 0px solid rgba(101,21,71,1) ;
+  border-block-end: 0px solid rgba(101,21,71,1);
   animation: fadeIn 1s !important;
   inline-size: 750px;
   transform: translateY(-100%);
@@ -325,6 +329,15 @@ input[type=submit].slideIcon,
 
 .modalpanel #modaltitle {
   background-color: rgba(101,21,71,1) !important;
+}
+
+#notificationContainer{
+  background-color: rgba(135,21,119,1);
+  border-block-end: 0px solid rgba(101,21,71,1);
+}
+
+#notificationContainer .notificationBanner{
+  background-color: rgba(101,21,71,1);
 }
 
 /*Settings Tab*/
