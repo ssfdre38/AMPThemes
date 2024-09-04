@@ -4,14 +4,9 @@
  * Description: A Pink Fantasy theme.
  * Author: James Manker (Iceofwraith) Edited By Daniel Elliott (ssfdre38)
  * Platform: For AMP (Application Management Panel) By Cubecoders Limited
- * Version: 1.7.0 For AMP 2.5.1.6
+ * Version: 1.7.2 For AMP 2.5.1.8
  * Image Copyright: Background by Yuki https://github.com/IceOfWraith/Yuki No copyright.
  **/
-
-@keyframes slidein {
-  0% { inset-block-start: -100%; padding-block-start:60px; }
-  100% { padding-block-start:32px; }
-}
 
 @keyframes fadeIn {
   0% {opacity: 0;}
@@ -29,61 +24,6 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-color: black;
-}
-
-/*Login Screen*/
-#loginContainer {
-  background: rgba(0, 0, 0, 0.345) !important;
-  animation: fadeIn 2s;
-  border-radius: 6px !important;
-  display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 500px !important; /* Adjust width as needed */
-}
-
-#loginLogo {
-  display: block; /* Ensure it is displayed */
-  margin-bottom: auto; /* Push it to the top */
-}
-
-#loginLogo img {
-  animation: fadeIn 2s;
-}
-
-
-h2 {
-  color: white;
-  font-size: 1.5em;
-  margin: 0;
-}
-
-h4 {
-  color: white;
-  font-size: 1em;
-  margin: 0;
-}
-
-h6 {
-  color: white;
-  font-size: 0.8em;
-  margin: 0;
-}
-
-#loginForm {
-  border-radius: 6px !important;
-  margin-top: auto; /* Push it to the bottom */
-  width: 450px; /* Adjust width as needed */
-  align-items: center !important;
-}
-
-/*Login Loader*/
-.loginBusy {
-  position: fixed;
-  bottom: 0;
-  transform: translateX(-50%);
 }
 
 /*Background Tab*/
@@ -143,13 +83,14 @@ button:disabled {
 .bgPink{
   border: none !important;
   }
-  
+
 .bgPurple{
   border: none !important;
   }
 
 /*Overall Button Hover*/
 .button:hover {
+  border: none !important;
   background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
 }
 .datastoreItem,
@@ -183,6 +124,61 @@ button:disabled {
   border: none;
 }
 
+/*Login Screen*/
+#loginContainer {
+  background: rgba(0, 0, 0, 0.345) !important;
+  animation: fadeIn 2s;
+  border-radius: 6px !important;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 500px !important; /* Adjust width as needed */
+}
+
+#loginLogo {
+  display: block; /* Ensure it is displayed */
+  margin-bottom: auto; /* Push it to the top */
+}
+
+#loginLogo img {
+  animation: fadeIn 2s;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h4 {
+  color: white;
+  font-size: 1em;
+  margin: 0;
+}
+
+h6 {
+  color: white;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+#loginForm {
+  border-radius: 6px !important;
+  margin-top: auto; /* Push it to the bottom */
+  width: 450px; /* Adjust width as needed */
+  align-items: center !important;
+}
+
+/*Login Loader*/
+.loginBusy {
+  position: fixed;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+/*End of Login Container*/
+
 .bgGreen:hover {
   background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
 }
@@ -207,7 +203,7 @@ button:disabled {
 
 #sideMenu a.selected {
   background-color: #222;
-  color: #5EA8DE;
+  color: darkmagenta ;
 }
 
 /*Left Side Menu*/
@@ -248,6 +244,10 @@ input.searchBox {
 input[type="checkbox"]:checked + span,
 input[type="checkbox"]:checked + span::after {
   background: rgb(200,16,299);
+}
+
+#sideMenu a.selected{
+  color:rgb(160, 0, 160);
 }
 
 /*New status bar in the instance view*/
@@ -323,7 +323,7 @@ input[type=submit].slideIcon,
 /*Pop-up Infomation Panel*/
 .modalpanel {
   background-color: rgba(135,21,119,1);
-  border-block-end: 0px solid rgba(101,21,71,1) ;
+  border-block-end: 0px solid rgba(101,21,71,1);
   animation: fadeIn 1s !important;
   inline-size: 750px;
   transform: translateY(-100%);
@@ -338,6 +338,15 @@ input[type=submit].slideIcon,
 
 .modalpanel #modaltitle {
   background-color: rgba(101,21,71,1) !important;
+}
+
+#notificationContainer{
+  background-color: rgba(135,21,119,1);
+  border-block-end: 0px solid rgba(101,21,71,1);
+}
+
+#notificationContainer .notificationBanner{
+  background-color: rgba(101,21,71,1);
 }
 
 /*Settings Tab*/
@@ -363,6 +372,7 @@ input[type=submit].slideIcon,
 {
   border-radius: 16px !important;
 }
+
 
 /* New Server Group*/
 .ServerGroup.Online
@@ -421,9 +431,28 @@ input[type=submit].slideIcon,
 .iconButton.toggled {
   background-color: rgb(120, 0, 120) !important;
 }
+/*
+File Manager (working on right now)
+.fmPathSegment {
+  background-color: rgb(100, 0, 100) !important;
+}
+
+.fmPathSegment::after{
+  background-color: rgb(100, 0, 100) !important;
+}
+
+.fmPathSegment:nth-child(2n)
+{
+  background-color: rgb(180, 0, 180) !important;
+}
+
+.fmPathSegment:nth-child(2n)::after
+{
+  background-color: rgb(180, 0, 180) !important;
+}
+*/
 
 /*Community Pages*/
-
 
 /* AMP Logo bottom right */
 #AMPLogo{
@@ -474,4 +503,21 @@ input[type=submit].slideIcon,
   width: 460px;
   height: 215px;
   width: 100%;
+}
+
+/*Community Pages Text*/
+.ServerInfoLines .Line {
+  color: white;
+}
+
+.well.info{
+  border:1px solid darkmagenta;
+}
+
+#sideMenu a.info .warn, #sideMenu a.info .subtitle{
+  color: darkmagenta;
+}
+
+#sideMenu a.hasNotice{
+  background-color: rgb(101,21,71, 0.2)
 }
