@@ -158,7 +158,7 @@ h6 {
 #loginForm {
   border-radius: 6px !important;
   margin-top: auto; /* Push it to the bottom */
-  width: 450px; /* Adjust width as needed */
+  width: 400px; /* Adjust width as needed */
   align-items: center !important;
 }
 
