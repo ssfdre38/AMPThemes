@@ -200,7 +200,7 @@ button:disabled {
 
 #sideMenu a.selected {
   background-color: #222;
-  color: #5EA8DE;
+  color: darkmagenta ;
 }
 
 /*Left Side Menu*/
@@ -241,6 +241,10 @@ input.searchBox {
 input[type="checkbox"]:checked + span,
 input[type="checkbox"]:checked + span::after {
   background: rgb(200,16,299);
+}
+
+#sideMenu a.selected{
+  color:rgb(160, 0, 160);
 }
 
 /*New status bar in the instance view*/
@@ -332,6 +336,16 @@ input[type=submit].slideIcon,
 .modalpanel #modaltitle {
   background-color: rgba(101,21,71,1) !important;
 }
+
+#notificationContainer{
+  background-color: rgba(135,21,119,1);
+  border-block-end: 0px solid rgba(101,21,71,1);
+}
+
+#notificationContainer .notificationBanner{
+  background-color: rgba(101,21,71,1);
+}
+
 /*Settings Tab*/
 .tabHeaderContainer
 {
@@ -471,6 +485,18 @@ input[type=submit].slideIcon,
 /*Community Pages Text*/
 .ServerInfoLines .Line {
   color: white;
+}
+
+.well.info{
+  border:1px solid darkmagenta;
+}
+
+#sideMenu a.info .warn, #sideMenu a.info .subtitle{
+  color: darkmagenta;
+}
+
+#sideMenu a.hasNotice{
+  background-color: rgb(101,21,71, 0.2)
 }
 
 /*Background Image*/
