@@ -238,7 +238,7 @@ input[type="checkbox"]:checked + span::after {
 }
 
 #sideMenu a.selected{
-  color:rgb(160, 0, 160);
+  color:rgb(180, 0, 180);
 }
 
 /*New status bar in the instance view*/
