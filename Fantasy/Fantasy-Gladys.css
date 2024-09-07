@@ -8,12 +8,7 @@
  * Image Copyright: Background by Yuki https://github.com/IceOfWraith/Yuki No copyright.
  **/
 
-@keyframes slidein {
-  0% { inset-block-start: -100%; padding-block-start:60px; }
-  100% { padding-block-start:32px; }
-}
-
-@keyframes fadeIn {
+ @keyframes fadeIn {
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
@@ -26,62 +21,6 @@
 .bodyTab {
   background: none;
 }
-
-/*Login Screen*/
-#loginContainer {
-  background: rgba(0, 0, 0, 0.345) !important;
-  animation: fadeIn 2s;
-  border-radius: 6px !important;
-  display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 500px !important; /* Adjust width as needed */
-}
-
-#loginLogo {
-  display: block; /* Ensure it is displayed */
-  margin-bottom: auto; /* Push it to the top */
-}
-
-#loginLogo img {
-  animation: fadeIn 2s;
-}
-
-
-h2 {
-  color: white;
-  font-size: 1.5em;
-  margin: 0;
-}
-
-h4 {
-  color: white;
-  font-size: 1em;
-  margin: 0;
-}
-
-h6 {
-  color: white;
-  font-size: 0.8em;
-  margin: 0;
-}
-
-#loginForm {
-  border-radius: 6px !important;
-  margin-top: auto; /* Push it to the bottom */
-  width: 400px; /* Adjust width as needed */
-  align-items: center !important;
-}
-
-/*Login Loader*/
-.loginBusy {
-  position: fixed;
-  bottom: 0;
-  transform: translateX(-50%);
-}
-
 
 /*Buttons*/
 .bgGreen,
@@ -135,7 +74,7 @@ button:disabled {
 .bgPink{
   border: none !important;
   }
-  
+
 .bgPurple{
   border: none !important;
   }
@@ -175,6 +114,61 @@ button:disabled {
 .scheduleTriggerTask {
   border: none;
 }
+
+/*Login Screen*/
+#loginContainer {
+  background: rgba(0, 0, 0, 0.345) !important;
+  animation: fadeIn 2s;
+  border-radius: 6px !important;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 500px !important; /* Adjust width as needed */
+}
+
+#loginLogo {
+  display: block; /* Ensure it is displayed */
+  margin-bottom: auto; /* Push it to the top */
+}
+
+#loginLogo img {
+  animation: fadeIn 2s;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h4 {
+  color: white;
+  font-size: 1em;
+  margin: 0;
+}
+
+h6 {
+  color: white;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+#loginForm {
+  border-radius: 6px !important;
+  margin-top: auto; /* Push it to the bottom */
+  width: 400px; /* Adjust width as needed */
+  align-items: center !important;
+}
+
+/*Login Loader*/
+.loginBusy {
+  position: fixed;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+/*End of Login Container*/
 
 .bgGreen:hover {
   background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
@@ -320,7 +314,7 @@ input[type=submit].slideIcon,
 /*Pop-up Infomation Panel*/
 .modalpanel {
   background-color: rgba(135,21,119,1);
-  border-block-end: 0px solid rgba(101,21,71,1) ;
+  border-block-end: 0px solid rgba(101,21,71,1);
   animation: fadeIn 1s !important;
   inline-size: 750px;
   transform: translateY(-100%);
@@ -369,6 +363,7 @@ input[type=submit].slideIcon,
 {
   border-radius: 16px !important;
 }
+
 
 /* New Server Group*/
 .ServerGroup.Online
@@ -427,9 +422,7 @@ input[type=submit].slideIcon,
 .iconButton.toggled {
   background-color: rgb(120, 0, 120) !important;
 }
-
 /*Community Pages*/
-
 
 /* AMP Logo bottom right */
 #AMPLogo{
