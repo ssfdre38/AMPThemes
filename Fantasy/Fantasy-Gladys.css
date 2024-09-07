@@ -422,6 +422,18 @@ input[type=submit].slideIcon,
 .iconButton.toggled {
   background-color: rgb(120, 0, 120) !important;
 }
+
+/*File Manager*/
+
+.fileManagerEntry.selected {
+  background-color: rgb(120, 0, 120, 0.2) !important;
+}
+
+.fileManagerEntry:hover {
+  background: rgb(180, 0, 180, 0.2);
+  background-color: rgb(180, 0, 180, 0.2) !important;
+}
+
 /*Community Pages*/
 
 /* AMP Logo bottom right */
