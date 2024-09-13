@@ -139,7 +139,6 @@ button:disabled {
 
 #loginLogo {
   display: block; /* Ensure it is displayed */
-  margin-bottom: auto; /* Push it to the top */
 }
 
 #loginLogo img {
@@ -166,7 +165,6 @@ h6 {
 
 #loginForm {
   border-radius: 6px !important;
-  margin-top: auto; /* Push it to the bottom */
   width: 400px; /* Adjust width as needed */
   align-items: center !important;
 }
