@@ -421,6 +421,17 @@ input[type=submit].slideIcon,
   background-color: rgb(120, 0, 120) !important;
 }
 
+/*File Manager*/
+
+.fileManagerEntry.selected {
+  background-color: rgb(120, 0, 120, 0.4) !important;
+}
+
+.fileManagerEntry:hover {
+  background: rgb(180, 0, 180, 0.4);
+  background-color: rgb(180, 0, 180, 0.4) !important;
+}
+
 /*Minecraft Plugins Page*/
 #BukGetSearchQuery input{
   color: white;
