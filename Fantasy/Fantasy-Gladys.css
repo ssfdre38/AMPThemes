@@ -420,6 +420,12 @@ input[type=submit].slideIcon,
 .iconButton.toggled {
   background-color: rgb(120, 0, 120) !important;
 }
+
+/*Minecraft Plugins Page*/
+#BukGetSearchQuery input{
+  color: white;
+}
+
 /*Community Pages*/
 
 /* AMP Logo bottom right */
