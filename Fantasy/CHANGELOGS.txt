@@ -1,3 +1,10 @@
+1.7.3 Change Logs
+
+Starting File Manager change to the theme.
+Make changes for the Minecraft Module.
+Fix Mobile Login Spacing.
+
+
 1.7.0 Change Logs
 
 New Login Container Setup.
