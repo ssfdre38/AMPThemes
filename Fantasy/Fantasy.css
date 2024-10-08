@@ -420,14 +420,14 @@ input[type=submit].slideIcon,
 .iconButton.toggled {
   background-color: rgb(120, 0, 120) !important;
 }
-/*
-File Manager (working on right now)
+
+/*File Manager*/
 .fmPathSegment {
   background-color: rgb(100, 0, 100) !important;
 }
 
 .fmPathSegment::after{
-  background-color: rgb(100, 0, 100) !important;
+  border-left: 10px solid rgb(100, 0, 100) !important;
 }
 
 .fmPathSegment:nth-child(2n)
@@ -437,11 +437,8 @@ File Manager (working on right now)
 
 .fmPathSegment:nth-child(2n)::after
 {
-  background-color: rgb(180, 0, 180) !important;
+  border-left: 10px solid rgb(180, 0, 180) !important;
 }
-*/
-
-/*File Manager*/
 
 .fileManagerEntry.selected {
   background-color: rgb(120, 0, 120, 0.4) !important;
@@ -450,6 +447,10 @@ File Manager (working on right now)
 .fileManagerEntry:hover {
   background: rgb(180, 0, 180, 0.4);
   background-color: rgb(180, 0, 180, 0.4) !important;
+}
+
+#editorFilename{
+  color: white !important;
 }
 
 /*Minecraft Plugins Page*/
