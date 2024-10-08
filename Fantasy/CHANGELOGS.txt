@@ -1,3 +1,8 @@
+1.7.6 Change Logs
+File manager is now part of the theme
+Mobile login has been worked on a bit
+Minecraft Module Plugin Manager has white text now
+
 1.7.3 Change Logs
 
 Starting File Manager change to the theme.
