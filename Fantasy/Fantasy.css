@@ -532,8 +532,8 @@ input[type=submit].slideIcon,
 }
 
 #sideMenu a.selected {
-  background-color: rgba(140, 0, 140, 0.15);
-  color: rgba(160,0,160) ;
+  background-color: rgba(0,0,0,0);
+  color: rgba(200,0,200) ;
 }
 
 /*Background Image*/
