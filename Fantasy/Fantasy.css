@@ -191,7 +191,7 @@ h6 {
 }
 
 #sideMenu a.selected {
-  background-color: #222;
+  background-color: rgba(0,0,0,0.0);
   color: rgba(160,0,160) ;
 }
 
