@@ -176,29 +176,12 @@ h6 {
   background: rgba(0,0,0,0.8) !important;
 }
 
-.subMenuWell,
-#mainBody,
-#fileManagerList {
-  background-color: rgba(0,0,0,0.5);
-}
 
-#sideMenu a {
-  font-size: 100%;
-}
-
-#sideMenu a:active {
-  background-color: #111;
-}
-
-#sideMenu a.selected {
-  background-color: rgba(0,0,0,0.0);
-  color: rgba(160,0,160) ;
-}
 
 /*Left Side Menu*/
 #sideMenuContainer,
 .subMenuWell {
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0,0,0,0.6) !important;
 }
 
 #multiMenuContainer
@@ -532,6 +515,25 @@ input[type=submit].slideIcon,
 
 #sideMenu a:hover{
   background-color: rgba(140, 0, 140, 0.2);
+}
+
+.subMenuWell,
+#mainBody,
+#fileManagerList {
+  background-color: rgba(0,0,0,0.5);
+}
+
+#sideMenu a {
+  font-size: 100%;
+}
+
+#sideMenu a:active {
+  background-color: #111;
+}
+
+#sideMenu a.selected {
+  background-color: rgba(140, 0, 140, 0.15);
+  color: rgba(160,0,160) ;
 }
 
 /*Background Image*/
