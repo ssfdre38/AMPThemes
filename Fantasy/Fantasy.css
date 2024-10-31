@@ -4,7 +4,7 @@
  * Description: A Pink Fantasy theme.
  * Author: Daniel Elliott (ssfdre38)
  * Platform: For AMP (Application Management Panel) By Cubecoders Limited
- * Version: 1.7.4 For AMP 2.5.1.8
+ * Version: 1.7.8 For AMP 2.6.0.2
  * Image Copyright: Background by Yuki https://github.com/IceOfWraith/Yuki No copyright.
  **/
 
@@ -36,6 +36,10 @@ button {
 }
 
 /*Server Group*/
+.ServerGroupContainer{
+  border-radius: 4px !important;
+}
+
 .ServerGroup.Online .ServerGroupHeader
 {
   background: rgb(2,0,36) !important;
@@ -73,11 +77,16 @@ button:disabled {
 
 .bgPink{
   border: none !important;
-  }
+}
 
 .bgPurple{
   border: none !important;
-  }
+}
+
+.bgBlue{
+  background-color: #700086 !important;
+  border: none !important;
+}
 
 /*Overall Button Hover*/
 .button:hover {
@@ -175,8 +184,6 @@ h6 {
 #userInfo {
   background: rgba(0,0,0,0.8) !important;
 }
-
-
 
 /*Left Side Menu*/
 #sideMenuContainer,
@@ -344,11 +351,11 @@ input[type=submit].slideIcon,
   border-radius: 16px !important;
 }
 
-
 /* New Server Group*/
 .ServerGroup.Online
 {
-  border: 2px solid rgb(180, 0, 180) !important;
+  border: 2px solid rgb(160, 0, 160) !important;
+  border-radius: 4px !important;
 }
 
 .ServerGroup.Offline
@@ -364,6 +371,12 @@ input[type=submit].slideIcon,
 .ServerGroup
 {
   background-color: rgba(0,0,0,0.25) !important;
+}
+
+.ServerGroup .ServerGroupHeader .SystemInfo
+{
+  top: 8px !important;
+  font-size: 12px !important;
 }
 
 /* New Instance Info*/
@@ -389,6 +402,8 @@ input[type=submit].slideIcon,
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
+  border-left-width: 0px !important;
+  border-left-color: none !important;
 }
 
 .InstanceList .ServerEntry .ServerEntryInfo {
@@ -403,6 +418,10 @@ input[type=submit].slideIcon,
   text-align: center !important;
   display: flex !important;
   align-items: center !important;
+}
+
+.InstanceList .ServerEntry.NewServerEntry{
+  border-left-width: 0px !important;
 }
 
 .iconButton.toggled {

@@ -36,6 +36,10 @@ button {
 }
 
 /*Server Group*/
+.ServerGroupContainer{
+  border-radius: 4px !important;
+}
+
 .ServerGroup.Online .ServerGroupHeader
 {
   background: rgb(2,0,36) !important;
@@ -73,11 +77,16 @@ button:disabled {
 
 .bgPink{
   border: none !important;
-  }
+}
 
 .bgPurple{
   border: none !important;
-  }
+}
+
+.bgBlue{
+  background-color: #700086 !important;
+  border: none !important;
+}
 
 /*Overall Button Hover*/
 .button:hover {
@@ -119,7 +128,7 @@ button:disabled {
 #loginContainer {
   background: rgba(0, 0, 0, 0.345) !important;
   animation: fadeIn 2s;
-  border-radius: 6px !important;
+  border-radius: 10px !important;
   display: flex;
   flex-direction: column; /* Stack children vertically */
   align-items: center;
@@ -162,9 +171,9 @@ h6 {
 
 /*Login Loader*/
 .loginBusy {
-  position: fixed;
-  bottom: 0;
-  transform: translateX(-50%);
+  position: fixed !important;
+  bottom: 0 !important;
+  transform: translateX(-50%) !important;
 }
 /*End of Login Container*/
 
@@ -176,29 +185,10 @@ h6 {
   background: rgba(0,0,0,0.8) !important;
 }
 
-.subMenuWell,
-#mainBody,
-#fileManagerList {
-  background-color: rgba(0,0,0,0.5);
-}
-
-#sideMenu a {
-  font-size: 100%;
-}
-
-#sideMenu a:active {
-  background-color: #111;
-}
-
-#sideMenu a.selected {
-  background-color: #222;
-  color: darkmagenta ;
-}
-
 /*Left Side Menu*/
 #sideMenuContainer,
 .subMenuWell {
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0,0,0,0.6) !important;
 }
 
 #multiMenuContainer
@@ -313,9 +303,8 @@ input[type=submit].slideIcon,
 .modalpanel {
   background-color: rgba(135,21,119,1);
   border-block-end: 0px solid rgba(101,21,71,1);
-  animation: fadeIn 1s !important;
+  animation: fadeIn 2s !important;
   inline-size: 750px;
-  transform: translateY(-100%);
   margin-inline-start: auto;
   margin-inline-end: auto;
   max-inline-size: 95%;
@@ -326,7 +315,7 @@ input[type=submit].slideIcon,
 }
 
 .modalpanel #modaltitle {
-  background-color: rgba(101,21,71,1) !important;
+  background-color: rgba(101,21,71,1);
 }
 
 #notificationContainer{
@@ -362,11 +351,11 @@ input[type=submit].slideIcon,
   border-radius: 16px !important;
 }
 
-
 /* New Server Group*/
 .ServerGroup.Online
 {
-  border: 2px solid rgb(180, 0, 180) !important;
+  border: 2px solid rgb(160, 0, 160) !important;
+  border-radius: 4px !important;
 }
 
 .ServerGroup.Offline
@@ -382,6 +371,12 @@ input[type=submit].slideIcon,
 .ServerGroup
 {
   background-color: rgba(0,0,0,0.25) !important;
+}
+
+.ServerGroup .ServerGroupHeader .SystemInfo
+{
+  top: 8px !important;
+  font-size: 12px !important;
 }
 
 /* New Instance Info*/
@@ -404,9 +399,11 @@ input[type=submit].slideIcon,
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
+  border-left-width: 0px !important;
+  border-left-color: none !important;
 }
 
 .InstanceList .ServerEntry .ServerEntryInfo {
@@ -415,6 +412,16 @@ input[type=submit].slideIcon,
   flex-direction: column;
   justify-content: space-between;
   block-size: 100%;
+}
+
+.InstanceList .ServerEntry.GuidePrompt{
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.InstanceList .ServerEntry.NewServerEntry{
+  border-left-width: 0px !important;
 }
 
 .iconButton.toggled {
@@ -467,7 +474,7 @@ input[type=submit].slideIcon,
 
 /* Server Info Page */
 .ServerInfo{
-  background: linear-gradient(167deg, rgba(2,0,36,0.7) 0%, rgba(135,21,119,0.7) 43%, rgba(101,21,71,0.7) 100%) !important;
+  background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
 }
 
 /* Buttons info*/
