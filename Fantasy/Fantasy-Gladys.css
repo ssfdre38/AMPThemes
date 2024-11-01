@@ -4,7 +4,7 @@
  * Description: A Pink Fantasy theme.
  * Author: Daniel Elliott (ssfdre38)
  * Platform: For AMP (Application Management Panel) By Cubecoders Limited
- * Version: 1.7.4 For AMP 2.5.1.8
+ * Version: 1.7.8 For AMP 2.6.0.2
  * Image Copyright: Background by Yuki https://github.com/IceOfWraith/Yuki No copyright.
  **/
 
@@ -375,8 +375,8 @@ input[type=submit].slideIcon,
 
 .ServerGroup .ServerGroupHeader .SystemInfo
 {
-  top: 8px !important;
-  font-size: 12px !important;
+  top: 20px !important;
+  font-size: 20px !important;
 }
 
 /* New Instance Info*/
@@ -402,8 +402,6 @@ input[type=submit].slideIcon,
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
-  border-left-width: 0px !important;
-  border-left-color: none !important;
 }
 
 .InstanceList .ServerEntry .ServerEntryInfo {
@@ -550,7 +548,7 @@ body {
 }
 
 #mainBody {
-  background-color: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.5);
 }
 
 body {
