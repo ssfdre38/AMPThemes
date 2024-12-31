@@ -138,7 +138,8 @@ button:disabled {
 }
 
 #loginLogo {
-  display: block; /* Ensure it is displayed */
+  display: block;
+  margin: 0 auto;
 }
 
 #loginLogo img {
