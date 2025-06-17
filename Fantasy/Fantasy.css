@@ -75,6 +75,11 @@ button:disabled {
   background: rgb(88, 0, 88) !important;
 }
 
+button:disabled:hover {
+  background-color: rgba(0,0,0,0.5);
+  background: rgb(88, 0, 88) !important;
+}
+
 .bgPink{
   border: none !important;
 }
@@ -378,6 +383,11 @@ input[type=submit].slideIcon,
 {
   top: 20px !important;
   font-size: 16px !important;
+}
+
+.InstanceList .ServerEntry .ServerEntryImage.Blur
+{
+  width: 25% !important;
 }
 
 /* New Instance Info*/
