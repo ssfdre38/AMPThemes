@@ -53,7 +53,7 @@ button {
 .button {
   background-color: transparent;
   color: white;
-  background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
+  background: transparent(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
   font-family: "roboto-light", "Segoe UI Light", "Segoe UI", Calibri, Verdana, Geneva, "DejaVu Sans", sans-serif;
   font-weight: lighter;
   font-size: larger;
@@ -301,8 +301,7 @@ input.searchBox {
 
 input[type="checkbox"]:checked + span,
 input[type="checkbox"]:checked + span::after {
-  /* fixed invalid RGB value (299 -> 199) */
-  background: rgb(200,16,199);
+  background: rgb(200,16,299);
 }
 
 #sideMenu a.selected{
@@ -335,7 +334,13 @@ input[type="checkbox"]:checked + span::after {
   border-block-end: none;
   border-radius: 16px !important;
 }
-/* ...existing hover rules in file handle button and related hover styles... */
+.ServerEntry.NewServerEntry,
+.bgGreen:hover,
+button:hover,
+input[type=button]:hover,
+input[type=submit]:hover,
+
+
 /*Side Icons*/
 button.slideIcon,
 input[type=button].slideIcon,
