@@ -53,7 +53,7 @@ button {
 .button {
   background-color: transparent;
   color: white;
-  background: transparent(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
+  background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
   font-family: "roboto-light", "Segoe UI Light", "Segoe UI", Calibri, Verdana, Geneva, "DejaVu Sans", sans-serif;
   font-weight: lighter;
   font-size: larger;
@@ -183,6 +183,79 @@ h6 {
 }
 /*End of Login Container*/
 
+/* Responsive: make login area adapt to small screens (phones) */
+@media (max-width: 480px) {
+  #loginContainer {
+    /* force the login box to center in the viewport on phones */
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 90% !important;
+    max-width: 420px !important;
+    padding: 18px !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    z-index: 9999 !important;
+    /* keep the whole box visible and scroll internally if needed */
+    max-height: calc(100vh - 40px) !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important; /* prevent sideways scrolling */
+  }
+
+  #loginForm {
+    width: 100% !important;
+    padding: 6px 8px !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+    min-width: 0 !important; /* allow children to shrink inside flex */
+  }
+
+  #loginLogo img {
+    max-width: 70% !important;
+    height: auto !important;
+    display: block !important;
+    object-fit: contain !important;
+  }
+
+  /* Make form controls responsive inside the container */
+  #loginForm input,
+  #loginForm button,
+  #loginForm select,
+  #loginForm textarea {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    min-width: 0 !important;
+    word-break: break-word !important;
+  }
+
+  h2 {
+    font-size: 1.25em !important;
+  }
+
+  h4 {
+    font-size: 0.95em !important;
+  }
+
+  h6 {
+    font-size: 0.8em !important;
+  }
+
+  /* Center the login loader and keep it visible above mobile nav bars */
+  .loginBusy {
+    left: 50% !important;
+    bottom: 12px !important;
+    transform: translateX(-50%) !important;
+    position: fixed !important;
+    z-index: 10001 !important;
+  }
+
+  /* Stack children naturally and allow wrapping */
+  .InstanceList {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 .bgGreen:hover {
   background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(135,21,119,1) 43%, rgba(101,21,71,1) 100%) !important;
 }
@@ -228,7 +301,8 @@ input.searchBox {
 
 input[type="checkbox"]:checked + span,
 input[type="checkbox"]:checked + span::after {
-  background: rgb(200,16,299);
+  /* fixed invalid RGB value (299 -> 199) */
+  background: rgb(200,16,199);
 }
 
 #sideMenu a.selected{
@@ -261,13 +335,7 @@ input[type="checkbox"]:checked + span::after {
   border-block-end: none;
   border-radius: 16px !important;
 }
-.ServerEntry.NewServerEntry,
-.bgGreen:hover,
-button:hover,
-input[type=button]:hover,
-input[type=submit]:hover,
-
-
+/* ...existing hover rules in file handle button and related hover styles... */
 /*Side Icons*/
 button.slideIcon,
 input[type=button].slideIcon,
